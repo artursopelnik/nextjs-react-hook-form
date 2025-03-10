@@ -1,0 +1,26 @@
+{
+  "name": "@demo/nextjs-react-hook-form",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "tsc --noEmit && next build",
+    "start": "next start",
+    "update": "npx npm-check-updates -u",
+    "format": "npx prettier . --write"
+  },
+  "dependencies": {
+    "@types/node": "^22.13.10",
+    "next": "latest",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "^5.8.2"
+  }
+}

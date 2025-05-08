@@ -3,6 +3,8 @@ export type StepOneData = {
   lastName: string;
 };
 
-export type StepTwoData = {
+type StepTwoData = {
   acceptPrivacy: boolean;
 };
+
+export type FormData = StepOneData & StepTwoData;

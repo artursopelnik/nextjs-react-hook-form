@@ -1,10 +1,10 @@
-import DemoForm from "../components/DemoForm";
+import MultiStepForm from "../components/forms/MultiStepForm";
 
 export default function Page() {
   return (
     <div>
-      <h3>This is our page</h3>
-      <DemoForm />
+      <h1>Single Page Application Form</h1>
+      <MultiStepForm />
     </div>
   );
 }
